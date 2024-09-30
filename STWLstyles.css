@@ -141,7 +141,7 @@ footer{
         }
     }
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
     #PageTitle{
         line-height: 2em;
     }
