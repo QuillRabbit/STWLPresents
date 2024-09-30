@@ -1,0 +1,143 @@
+/* Basal Formatting */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px black solid; */
+}
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3em;
+    color-scheme: light dark;
+    --light-bg-color: #FFF6DF;
+    --dark-bg-color: #041433;
+    --light-accent-color: #FFEAB5;
+    --dark-accent-color: #072664;
+}
+
+/* Page Elements */
+#PageTitle{ 
+    line-height: 1.75em;
+    text-align: center;
+    margin: 1em 0;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    #STWL{ 
+        text-decoration: underline
+    }
+}
+#SocialMedia{
+    margin: 1vh auto;
+    max-width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* Social Media Picture */
+    .SMP{
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+    }
+    /* The specific formatting of these links differs from the regular buttons; removing this code causes the proportions to get wacky. */
+    a{
+        display: inherit;
+        align-items: center;
+        border: 2px solid;
+        padding: 5px;
+        width: 175px;
+        margin: 5px auto;
+    }
+}
+.intro {
+    width: 75%;
+    max-width: 900px;
+    margin: 1em auto;
+    font-weight: bold;
+}
+#tileset{
+    /* These commented-out borders exist to check formatting when making changes to the webpage, to better illustrate problems with alignment. They aren't necessary but would be inconvenient to have to code back in every time I want to check. */
+    /* border: solid 1px; */
+    margin: auto;
+    *{
+        /* border: solid 1px; */
+    }
+    tr{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 1000px;
+    }
+    .entry{
+        width: 450px;
+        margin: 15px;
+    }
+    /* This class is for the cover art images to make sure they're the appropriate dimension. */
+    .FitPicture{
+        width: 100%;
+        height: 350px;
+    }
+}
+.button{
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 12px;
+}
+.button:hover {
+    left: 145px;
+    bottom: 27px;
+    box-shadow: 5px 5px 5px;
+}
+/* This class is to move the position of the links for the bundle into a more aesthetically pleasing position */
+.bundleLink{
+    position: relative;
+    left: 150px;
+    bottom: 25px;
+}
+footer{
+    padding: 1em 0;
+}
+.outro {
+    width: 90%;
+    margin: auto;
+}
+
+/* Media Queries; Light/Dark Mode; Mobile Formating */
+@media (prefers-color-scheme: light) {
+    html {
+      color: black;
+      background-color: var(--light-bg-color);
+    }
+    footer, .button {
+      background-color: var(--light-accent-color);
+    }
+}
+  @media (prefers-color-scheme: dark) {
+    html {
+      color: white;
+      background-color: var(--dark-bg-color);
+    }
+    footer, .button {
+        background-color: var(--dark-accent-color);
+    }
+}
+@media (max-width: 800px){
+    #PageTitle{
+        font-size: smaller;
+    }
+    html{
+        font-size: X-large;
+    }
+    #SocialMedia {
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 550px;
+        margin: auto;
+        a {
+            display: flex;
+            width: 250px;
+            margin: .75em auto;
+        }
+    }
+}
