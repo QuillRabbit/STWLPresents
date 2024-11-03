@@ -31,7 +31,7 @@
     max-width: 900px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     /* Social Media Picture */
     .SMP{
         height: 30px;
