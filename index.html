@@ -20,14 +20,29 @@
         </div>
         <p class="intro">We at the <i>Secret Trans Writing Lair</i> are proud to share our passion with you. Please explore seasonal collections from across the years, representing the work of hobbyists and professionals who strive to bring transgender themes into readily-available fiction. 100% of revenue is shared equally between contributing artists.</p>
         <p class="intro">Many stories within these bundles have been cross-posted to the affiliated STWL Scribble Hub account where they can be viewed for free, however others remain exclusive to their respective bundles.</p>
-        <!-- These social media links are examples that exist in anticipation of official channels that we can redirect people to. -->
         <div id="SocialMedia">
             <a class="button" href="https://www.scribblehub.com/profile/48349/secrettranswritinglair/"><img src="ScribbleLogo.jpg" class="SMP">Scribble Hub</a>
             <a class="button" href="https://bsky.app/profile/stwlpresents.bsky.social"><img src="bluesky icon.png" class="SMP">BlueSky</a>
         </div>
+        <div style="text-align: center">
+            <label for="order"><strong>Order by: </strong></label>
+            <select name="order" id="sort-selector">
+                <option value="newest-first" default>Newest First</option>
+                <option value="oldest-first">Oldest First</option>
+                <option value="cost-high">Cost High to Low</option>
+                <option value="cost-low">Cost Low to High</option>
+                <option value="most-entries">Entries Most to Least</option>
+                <option value="least-entries">Entries Least to Most</option>
+            </select>
+            <!-- <span><strong>Include: </strong></span>
+            <a class="season-query included">Spring</a>
+            <a class="season-query included">Summer</a>
+            <a class="season-query included">Autumn</a>
+            <a class="season-query included">Winter</a> -->
+        </div>
         <table id="tileset">
             <tbody>
-                <tr>
+                <tr id="bundle-table-row">
                     <!-- <td class="entry">
                         <img src="2024Winter.png" class="FitPicture">
                         <h3>Santa's Secret Transfic Stash Volume 5</h3>
@@ -152,6 +167,7 @@
             </tbody>
         </table>
     </body>
+    <script src="script.js"></script>
     <footer>
         <p class="outro">All rights regarding the content of these collections are retained by their original authors.</p>
         <br>
