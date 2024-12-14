@@ -111,18 +111,18 @@ const bundleList = [
         price: "6.00",
         linkTo: "https://itch.io/b/2684/stwl-presents-the-fruit-of-our-efforts",
         description: `Fall has come around, and with a turn of the season comes an all new anthology from the Secret Trans Writing Lair! Grab your pumpkin spice, snuggle up in the crisp air, and tuck into eleven all new stories from some of your favorite queerlit authors.</p><br><p>A romance with a knight who may not be all they claim to be, love and war in the far flung galaxy, the horror of a serial killer's obsession, schoolgirls trapped in an endless timeloop. All this plus vampires, witches, mad scientists, and more await you in this autumnal anthology spanning genres from romance and comedy to horror and drama.`
-    }/*,
+    },
     {
         image: "2024Winter.png",
         title: "Santa's Secret Transfic Stash Volume 5",
         release: "December 2024",
         quarter: "winter",
-        entries: "??",
-        words: "???,000",
-        price: "?.00",
-        link: "???",
-        description: `???`
-    },*/
+        entries: "19",
+        words: "176,000",
+        price: "10.00",
+        link: "https://itch.io/b/2807/stwl-presents-santas-secret-transfic-stash-vol-5",
+        description: `Time for a little holiday magic! As is the annual tradition, the members of the Secret Trans Writing Lair have exchanged Secret Santa stories, and now is your chance to read them! Eighteen all new stories collected into one anthology!</p><br><p>In this collection you'll find holiday cheer after the apocalypse, family reunions through time, superheroics that change the status quo, angels who get more than they bargain for, world-ending and gender-bending romances,  and much much more! Plus, as a bonus to bundle purchasers, you also get the entire collection in one convenient epub release~</p><br><p>A wide variety of festive queer fiction across style and genre from nineteen trans authors await you in Santa's Secret Transfic Stash volume 5!`
+    },
 ];
 
 const displayTiles = (arr = bundleList, param, verse) => {
