@@ -123,6 +123,17 @@ const bundleList = [
         link: "https://itch.io/b/2807/stwl-presents-santas-secret-transfic-stash-vol-5",
         description: `Time for a little holiday magic! As is the annual tradition, the members of the Secret Trans Writing Lair have exchanged Secret Santa stories, and now is your chance to read them! Eighteen all new stories collected into one anthology!</p><br><p>In this collection you'll find holiday cheer after the apocalypse, family reunions through time, superheroics that change the status quo, angels who get more than they bargain for, world-ending and gender-bending romances,  and much much more! Plus, as a bonus to bundle purchasers, you also get the entire collection in one convenient epub release~</p><br><p>A wide variety of festive queer fiction across style and genre from nineteen trans authors await you in Santa's Secret Transfic Stash volume 5!`
     },
+    {
+        image: "2025March.jpg",
+        title: "Hope for Today",
+        release: "March 2025",
+        quarter: "spring",
+        entries: "10",
+        words: "N/A",
+        price: "5.00",
+        link: "https://itch.io/b/2961/stwl-presents-hope-for-today",
+        description: `Brand new stories from your favorite queer lit authors to help brighten your days, and remind you that there's still Hope for Today.`
+    },
 ];
 
 const displayTiles = (arr = bundleList, param, verse) => {
