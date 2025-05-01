@@ -131,7 +131,7 @@ const bundleList = [
         idNumber: 11,
         quarter: "spring",
         entries: "10",
-        words: "N/A",
+        words: "62,000",
         price: "5.00",
         link: "https://itch.io/b/2961/stwl-presents-hope-for-today",
         description: `Brand new stories from your favorite queer lit authors to help brighten your days, and remind you that there's still Hope for Today.`
